@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Lemon&display=swap");
+/* styles/typing.module.css */
+
+.container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.titleCard{
+  font-size: 2.5rem;
+  color: #b7d2e3;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #110D11;
+  padding-bottom: 10px;
+  font-family: comic sans ms;
+  display: flex;
+  justify-content: space-between;
+}
+.titleCard h1{
+  font-size: 35px;
+}
+.titleCard div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.titleCard div p{
+  font-size: 25px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.titleCard div p:hover {
+  color: #7bcd9a;
+  text-decoration: underline #858d88;
+}
+
+.lessonList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #BEDAEC ,#FFC75E,#110D11);
+}
+.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.buttonElement{
+  height: 80px;
+  width: 200px;
+  border-radius: 40px;
+  background-image: linear-gradient(
+    to right,
+    rgb(183, 126, 21),
+    rgb(244, 243, 240)
+  );
+  border-width: 0px;
+  font-family: "Lemon", serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #6e6ba0;
+}
+.container2{
+  background-image: url('../public/lesson2img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container3{
+  background-image: url('../public/lesson3img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container4{
+  background-image: url('../public/lesson4img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container5{
+  background-image: url('../public/lesson5img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container6{
+  background-image: url('../public/lesson6img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}.container1{
+  background-image: url('../public/lesson1img.png');
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

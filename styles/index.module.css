@@ -1,0 +1,26 @@
+.container{
+    background-image: url('../public/bgimg.jpg');
+    height: 130vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-bottom: 140px;
+    
+
+}
+.main{
+    background-image: linear-gradient(to bottom,white, rgb(236, 16, 155));
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    border-radius: 50%;
+    border-width: 0px;
+    font-family: comic sans ms;
+    font-weight: bold ;
+    font-size: 50px;
+    color: aliceblue;
+    
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Ledger&family=Lemon&display=swap');
+.container {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #BEDAEC ,#FFC75E,#110D11);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: black;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navLinks a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  .header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Lemon", serif;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: rgb(132, 26, 26);
+    font-family: "Ledger", serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Cards Container */
+  .cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  /* Card */
+  .card {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+  }
+  
+  /* Buttons */
+  .card button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .typingBtn {
+    background-color: #8e44ad;
+    font-family: "Lemon", serif;
+  }
+  
+  .codingBtn {
+    background-color: #e91e63;
+    font-family: "Lemon", serif;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .codingBtn p{
+    font-size: 12px;
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

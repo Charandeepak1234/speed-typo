@@ -1,0 +1,98 @@
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .timer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 24px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .active {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .inputField {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+  }
+  
+  /* Keyboard */
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+    border-radius: 12px;
+    padding: 15px;
+  }
+  
+  .keyboardRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
+  .key {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .glowingKey {
+    background: yellow;
+    color: black;
+    box-shadow: 0px 0px 15px yellow;
+  }
+  
+  .pressedKey {
+    background: #333;
+    color: white;
+  }
+  
+  .startButton, .retryButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
