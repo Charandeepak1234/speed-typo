@@ -253,7 +253,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../styles/Login.module.css';
+import styles from '../styles/login.module.css';
 import Navbar from './Navbar';
 
 export default function Login() {
