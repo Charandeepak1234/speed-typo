@@ -1,6 +1,8 @@
 import Link from "next/link";
 import styles from "/styles/typing.module.css"; // Import the CSS Module
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import typingimage from "@/public/codingLesson.png"
+import Image from "next/image";
 
 
 const Typing = () => {
@@ -17,6 +19,12 @@ const Typing = () => {
         <li className={styles.container1}>
           <Link href="/lessons/typing/lesson1">
             <div>
+               <Image
+                         src={codingimage}
+                          alt="Coding Lessons"
+                          width={200}
+                          height={200}
+                        />
               <button className={styles.buttonElement}>Lesson 1</button>
             </div>
           </Link>
