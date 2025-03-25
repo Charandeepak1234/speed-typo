@@ -20,7 +20,7 @@ const Typing = () => {
           <Link href="/lessons/typing/lesson1">
             <div>
                <Image
-                         src={codingimage}
+                         src={typingimage}
                           alt="Coding Lessons"
                           width={200}
                           height={200}
